@@ -9,5 +9,5 @@ def main():
     
   print(len(list(p.iterdir())))
   
-if__name__ == '__main__':
+if __name__ == '__main__':
   main()
