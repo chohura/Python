@@ -1,4 +1,4 @@
-class cal():
+class kalkulator():
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -16,28 +16,28 @@ class cal():
         return self.a - self.b
 
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-obj = cal(a, b)
+a = int(input("Podaj pierwszą liczbę: "))
+b = int(input("Podaj drugą liczbę: "))
+obj = kalkulator(a, b)
 choice = 1
 while choice != 0:
-    print("0. Exit")
-    print("1. Add")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
-    choice = int(input("Enter choice: "))
+    print("0. Wyjdź")
+    print("1. Dodawanie")
+    print("2. Odejmowanie")
+    print("3. Mnożenie")
+    print("4. Dzielenie")
+    choice = int(input("Wybierz: "))
     if choice == 1:
-        print("Result: ", obj.add())
+        print("Wynik: ", obj.add())
     elif choice == 2:
-        print("Result: ", obj.sub())
+        print("Wynik: ", obj.sub())
     elif choice == 3:
-        print("Result: ", obj.mul())
+        print("Wynik: ", obj.mul())
     elif choice == 4:
-        print("Result: ", round(obj.div(), 2))
+        print("Wynik: ", round(obj.div(), 2))
     elif choice == 0:
-        print("Exiting!")
+        print("Wychodzenie")
     else:
-        print("Invalid choice!!")
+        print("Podałeś złą cyfrę.")
 
 print()
