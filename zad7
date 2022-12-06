@@ -7,7 +7,7 @@ def txt_to_string(p: Path):
     return text
 
 
-def cutting_words(text: str):
+def removing_words(text: str):
     words = ["się", "i", "oraz", "nigdy", "dlaczego"]
     text_splitted = text.split(" ")
     for i, w in enumerate(text_splitted):
