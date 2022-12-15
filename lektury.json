@@ -1,0 +1,23 @@
+{
+  "Mały Książe": [
+    {
+      "autor": "Saint-Exupery",
+      "data": "1943",
+      "gatunek": "fantastyka"
+    }
+  ],
+  "Lalka": [
+    {
+      "autor": "Prus",
+      "data": "1889",
+      "gatunek": "powiesc"
+    }
+  ],
+  "Antygona": [
+    {
+      "autor": "Sofokles",
+      "data": "442 p.n.e.",
+      "gatunek": "tragedia"
+    }
+  ]
+}
