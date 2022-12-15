@@ -4,9 +4,9 @@ def main():
   kod = 1234
   wprowadzony_kod = int(input("Podaj kod: "))
   if wprowadzony_kod == kod:
-    print("Koda jest prawidłowy")
+    print("Kod jest prawidłowy")
   else:
-    print("Koda nie jest prawidłowy")
+    print("Kod nie jest prawidłowy")
     
 if __name__ == '__main__':
   main()
