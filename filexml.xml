@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<students>
+	<student id="1">
+		<imie>Monika</imie>
+		<nazwisko>Chohura</nazwisko>
+    <ID>401788</ID>
+	</student>
+	<student id="2">
+		<imie>Dawid</imie>
+		<nazwisko>Nowak</nazwisko>
+    <ID>401798</ID>
+	</student>
+  <student id="3">
+		<imie>Jacek/imie>
+		<nazwisko>Placek</nazwisko>
+    <ID>401797</ID>
+	</student>
+</students>
